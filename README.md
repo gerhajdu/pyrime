@@ -23,3 +23,10 @@ where the first five columns should be:
 - A1: the amplitude of the first Fourier harmonic in the I band
 - A2: the amplitude of the second Fourier harmonic in the I band
 - phi31: the epoch independent phase difference of the first and third Fourier harmonics in the I-band
+
+Given these data, the routine estimates whether a variable belongs to the Oosterhoff II group, in which
+case the original Equation 3 is used to calculate its iron abundance. In case of Oosterhoff I variables,
+the amplitude dependence is rectified as described in Hajdu et al. (2018).
+
+Finally, the program outputs the name of the variable, the abundance estimate and whether it is an
+Oosterhoff I or II variable.
