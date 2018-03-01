@@ -19,7 +19,7 @@ directory in the system PATH.
 The only argument the program expects is the location of a file, containing at least five columns,
 where the first five columns should be:
 - NAME: the name of the variable
-- PERIOD: the period determined by the PyFiNeR routine
+- PERIOD: the period of the variable
 - A1: the amplitude of the first Fourier harmonic in the I band
 - A2: the amplitude of the second Fourier harmonic in the I band
 - phi31: the epoch independent phase difference of the first and third Fourier harmonics in the I-band
