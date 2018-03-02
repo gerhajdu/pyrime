@@ -30,17 +30,17 @@ except:
     exit()
 
 try:
-    npzfile = np.load(path.dirname(__file__)+'/pyrime-const.npz')
+    npzfile = np.load(path.dirname(__file__)+'/pyrime_const.npz')
     cut     = npzfile['cut']
     const_p = npzfile['const_p']
 except:
-    print "pyrime-const.npz file not found"
+    print "pyrime_const.npz file not found"
     exit()
 
 try:
-    clf = pickle.load( open( path.dirname(__file__)+"/pyrime-correct.pkl", "rb" ))
+    clf = pickle.load( open( path.dirname(__file__)+"/pyrime_correct.pkl", "rb" ))
 except:
-    print "pyrime-correct.pkl not found!"
+    print "pyrime_correct.pkl not found!"
     exit()
 
 feh_eq3 = -6.125 -4.795 * periods + 1.181 * phi31s + 7.876 * A2s
