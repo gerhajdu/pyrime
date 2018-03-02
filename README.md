@@ -11,8 +11,7 @@ This routine was developed for:
 
 ## Installation
 
-Copy the files `pyrime`, `pyrime.py`, `pyrime-const.py` and `pyrime-correct.pkl` to the same
-directory in the system PATH.
+Copy all files from the `bin` directory to the same directory in the system PATH.
 
 ## Usage
 
