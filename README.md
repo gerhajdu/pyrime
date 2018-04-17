@@ -3,15 +3,17 @@
 This routine calculates the I-band photometric iron abundance of RR Lyrae variables,
 based on Equation 3 of [Smolec (2005)](http://adsabs.harvard.edu/abs/2005AcA....55...59S),
 but correcting for the amplitude-dependent offset in the Oosterhoff I variables, as 
-described by Hajdu et al. (2018).
+described by [Hajdu et al. (2018)](https://arxiv.org/abs/1804.01456).
 
 This routine was developed for:
- - `Python` 2.7
- - `Numpy` 1.12
+ - `Python` 2.7+ or 3.6+
+ - `Numpy` 1.12+
 
 ## Installation
 
 Copy all files from the `bin` directory to the same directory in the system PATH.
+If you get "ImportError: No module named builtins" error while using Python 2.7,
+install the `future` package.
 
 ## Usage
 
